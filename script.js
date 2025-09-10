@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         pages.forEach(page => {
             page.classList.remove('active');
         });
-        
+       
         // Show the selected page
         document.getElementById(pageId).classList.add('active');
     }
